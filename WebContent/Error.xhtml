@@ -1,0 +1,20 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:h="http://java.sun.com/jsf/html"> 
+
+<h:head>
+	<title>Common Error Page</title>
+</h:head> 
+<h:body> 
+	<h2 align="center">Common Exception Crash Page</h2>
+	
+	<h3>Exception Message</h3>
+	#{requestScope['error-message']}<br/>
+	
+	<h3>Exception Stack:</h3>
+	#{requestScope['error-stack']}<br/>
+	
+</h:body> 
+</html>
