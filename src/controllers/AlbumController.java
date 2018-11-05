@@ -6,11 +6,9 @@ import javax.ejb.EJB;
 import javax.faces.bean.ManagedBean;
 import javax.faces.bean.ViewScoped;
 import javax.faces.context.FacesContext;
-import javax.swing.plaf.synth.SynthSeparatorUI;
 
 import beans.Album;
 import beans.Track;
-import business.MusicManager;
 import business.MusicManagerInterface;
 import util.AlbumNotFoundException;
 import util.TracksNotFoundException;
